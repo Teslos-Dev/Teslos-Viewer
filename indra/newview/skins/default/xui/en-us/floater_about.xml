@@ -12,6 +12,11 @@
     <panel border="false" label="Credits" height="386" name="credits_panel">
       <!--Note to Translators: Please do not translate the following text_editor-->
       <text_editor enabled="false" follows="left|top" bg_readonly_color="transparent" left="3" max_length="65536" name="credits_editor" top="-1" bottom="0" width="443" word_wrap="true">
+
+Teslos Viewer is developed and maintained by Triplehx3.
+It started life as a direct fork of the awesome Singularity Viewer Release 1.8.9 (8338).
+
+
 Singularity Viewer is developed and maintained by Siana Gearz, Shyotl Kuhr, Inusaito Kanya, Router Gray and the Alchemy Viewer Team (specifically Sovereign Engineer),
 with contributions by Bittenbythedark, Cinder Roxley, Damian Zhaoying, Fractured Crystal, Franxisco Romano, Fritigern Gothly, Henri Beauchamp, Kadah Coba, Kitty Barnett, Knolan Falconer, Latif Khalifa, McCabe Maxsted, Mika Pyon, Narv Czervik, nhede Core, Nomade Zhao, Revolution Smythe, Selvone Franizzi, Sim Federal, Testicular Slingshot, Thickbrick Sleaford, Tigh MacFanatic, Torric Rodas, Wolfspirit Magic, Zauber Parecelsus and others.
 Singularity is maintained in joint effort with the Alchemy Viewer Project. Singularity was forked from Ascent source code. Credits for Ascent include Hg Beeks, Charley Levenque, Hazim Gazov, Zwagoth Klaar, Qarl Fizz, and others. Ascent is based upon the Inertia source code.

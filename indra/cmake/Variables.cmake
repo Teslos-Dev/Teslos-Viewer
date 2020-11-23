@@ -233,7 +233,7 @@ set(GRID agni CACHE STRING "Target Grid")
 if (DEFINED ENV{VIEWER_CHANNEL_BASE})
   set(VIEWER_CHANNEL_BASE $ENV{VIEWER_CHANNEL_BASE} CACHE STRING "Viewer Channel Base Name" FORCE)
 else()
-  set(VIEWER_CHANNEL_BASE "Singularity" CACHE STRING "Viewer Channel Base Name")
+  set(VIEWER_CHANNEL_BASE "Teslos" CACHE STRING "Viewer Channel Base Name")
 endif()
 
 if (DEFINED ENV{VIEWER_CHANNEL_TYPE})

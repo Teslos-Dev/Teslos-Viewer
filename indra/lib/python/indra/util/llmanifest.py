@@ -90,7 +90,7 @@ def get_default_platform(dummy):
             }[sys.platform]
 
 DEFAULT_SRCTREE = os.path.dirname(sys.argv[0])
-CHANNEL_VENDOR_BASE = 'Singularity'
+CHANNEL_VENDOR_BASE = 'Teslos'
 RELEASE_CHANNEL = CHANNEL_VENDOR_BASE + ' Release'
 
 BASE_ARGUMENTS=[
@@ -112,7 +112,7 @@ BASE_ARGUMENTS=[
         On Linux this would try to use Linux_i686Manifest.""",
          default=""),
     dict(name='artwork', description='Artwork directory.', default=DEFAULT_SRCTREE),
-    dict(name='branding_id', description="Identifier for the branding set to use.", default='singularity'),
+    dict(name='branding_id', description="Identifier for the branding set to use.", default='teslos'),
     dict(name='build', description='Build directory.', default=DEFAULT_SRCTREE),
     dict(name='buildtype', description='Build type (i.e. Debug, Release, RelWithDebInfo).', default=None),
     dict(name='channel',

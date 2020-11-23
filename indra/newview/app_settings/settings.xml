@@ -288,7 +288,7 @@
       <key>Type</key>
       <string>String</string>
       <key>Value</key>
-      <string>http://app.singularityviewer.org/dict/</string>
+      <string>http://teslos.xyz/viewer/dict/</string>
     </map>
 	<key>SpellDisplay</key>
 	<map>
@@ -570,7 +570,7 @@
     <key>Type</key>
     <string>String</string>
     <key>Value</key>
-	<string>http://app.singularityviewer.org/client_definitions.xml</string>
+	<string>http://teslos.xyz/viewer/client_definitions.xml</string>
   </map>
 
   <key>LastSelectedGrid</key>
@@ -2070,7 +2070,7 @@ This should be as low as possible, but too low may break functionality</string>
       <key>Type</key>
       <string>String</string>
       <key>Value</key>
-      <string>dark</string>
+      <string>clasic</string>
 	  <key>IsCOA</key>
 	  <integer>1</integer>
     </map>
@@ -3418,7 +3418,7 @@ This should be as low as possible, but too low may break functionality</string>
       <key>Type</key>
       <string>String</string>
       <key>Value</key>
-	  <string>http://www.singularityviewer.org</string>
+	  <string>https://github.com/Teslos-Dev/Teslos-Viewer</string>
     </map>
     <key>BrowserIgnoreSSLCertErrors</key>
     <map>
