@@ -14,6 +14,7 @@
 /indra/newview/dbghelp.dll
 indra/newview/res/viewer_icon.*
 indra/newview/res-sdl/viewer_icon.*
+indra/CMakeLists.txt.user
 /libraries/
 /lib/
 *.pyc
@@ -28,3 +29,4 @@ qtcreator-build/
 /build-*
 /viewer-*
 /Pipfile.lock
+
