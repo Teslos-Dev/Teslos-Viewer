@@ -344,13 +344,13 @@ BOOL gLogoutInProgress = FALSE;
 // Internal globals... that should be removed.
 static std::string gArgs;
 const int MAX_MARKER_LENGTH = 1024;
-const std::string MARKER_FILE_NAME("Singularity.exec_marker");
-const std::string START_MARKER_FILE_NAME("Singularity.start_marker");;
-const std::string ERROR_MARKER_FILE_NAME("Singularity.error_marker");
-const std::string LLERROR_MARKER_FILE_NAME("Singularity.llerror_marker");
-const std::string LOGOUT_MARKER_FILE_NAME("Singularity.logout_marker");
-const std::string LOG_FILE("Singularity.log");
-extern const std::string OLD_LOG_FILE("Singularity.old");
+const std::string MARKER_FILE_NAME("Teslos.exec_marker");
+const std::string START_MARKER_FILE_NAME("Teslos.start_marker");;
+const std::string ERROR_MARKER_FILE_NAME("Teslos.error_marker");
+const std::string LLERROR_MARKER_FILE_NAME("Teslos.llerror_marker");
+const std::string LOGOUT_MARKER_FILE_NAME("Teslos.logout_marker");
+const std::string LOG_FILE("Teslos.log");
+extern const std::string OLD_LOG_FILE("Teslos.old");
 static BOOL gDoDisconnect = FALSE;
 static std::string gLaunchFileOnQuit;
 
@@ -582,7 +582,7 @@ LLAppViewer::LLAppViewer() :
 			else newview_path.clear();
 		}
 
-		gDirUtilp->initAppDirs("SecondLife", newview_path);
+        gDirUtilp->initAppDirs("Teslos", newview_path);
 	}
 	//
 	// IMPORTANT! Do NOT put anything that will write
@@ -3885,7 +3885,7 @@ void LLAppViewer::badNetworkHandler()
 		"the issue. \n"
 		" \n"
 		"If the problem continues, please report the issue at: \n"
-		"http://www.singularityviewer.org";
+        "https://github.com/Teslos-Dev/Teslos-Viewer/issues";
 
 	if (!gHippoGridManager->getCurrentGrid()->getSupportUrl().empty())
 	{

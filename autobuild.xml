@@ -2713,15 +2713,15 @@
     <key>package_description</key>
     <map>
       <key>copyright</key>
-      <string>Copyright (c) 2010-2016, Singularity Viewer Team</string>
+      <string>Copyright (c) 2020, Teslos Viewer Team</string>
       <key>description</key>
-      <string>Singularity Viewer</string>
+      <string>Teslos Viewer</string>
       <key>license</key>
       <string>LGPL</string>
       <key>license_file</key>
       <string>docs/LICENSE-source.txt</string>
       <key>name</key>
-      <string>Singularity Viewer</string>
+      <string>Teslos Viewer</string>
       <key>platforms</key>
       <map>
         <key>common</key>
@@ -2742,7 +2742,7 @@
                 <array>
                   <string>-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo</string>
                   <string>-DADDRESS_SIZE:STRING=$AUTOBUILD_ADDRSIZE</string>
-                  <string>-DROOT_PROJECT_NAME:STRING=Singularity</string>
+                  <string>-DROOT_PROJECT_NAME:STRING=Teslos</string>
                   <string>-DINSTALL_PROPRIETARY=FALSE</string>
                 </array>
               </map>
@@ -2763,7 +2763,7 @@
                 <array>
                   <string>-DCMAKE_BUILD_TYPE:STRING=Release</string>
                   <string>-DADDRESS_SIZE:STRING=$AUTOBUILD_ADDRSIZE</string>
-                  <string>-DROOT_PROJECT_NAME:STRING=Singularity</string>
+                  <string>-DROOT_PROJECT_NAME:STRING=Teslos</string>
                   <string>-DINSTALL_PROPRIETARY=FALSE</string>
                 </array>
               </map>
@@ -2789,7 +2789,7 @@
                 <key>options</key>
                 <array>
                   <string>-configuration RelWithDebInfo</string>
-                  <string>-project Singularity.xcodeproj</string>
+                  <string>-project Teslos.xcodeproj</string>
                 </array>
               </map>
               <key>configure</key>
@@ -2814,7 +2814,7 @@
                 <key>options</key>
                 <array>
                   <string>-configuration Release</string>
-                  <string>-project Singularity.xcodeproj</string>
+                  <string>-project Teslos.xcodeproj</string>
                   <string>-DENABLE_SIGNING:BOOL=YES</string>
                   <string>-DSIGNING_IDENTITY:STRING="Developer ID Application: Linden Research, Inc."</string>
                 </array>
@@ -2960,7 +2960,7 @@
               <map>
                 <key>arguments</key>
                 <array>
-                  <string>Singularity.sln</string>
+                  <string>Teslos.sln</string>
                 </array>
                 <key>command</key>
                 <string>msbuild.exe</string>
@@ -3001,7 +3001,7 @@
               <map>
                 <key>arguments</key>
                 <array>
-                  <string>Singularity.sln</string>
+                  <string>Teslos.sln</string>
                 </array>
                 <key>command</key>
                 <string>msbuild.exe</string>

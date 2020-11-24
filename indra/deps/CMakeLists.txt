@@ -7,22 +7,22 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 FetchContent_Declare(
   Catch2
-  GIT_REPOSITORY https://github.com/catchorg/Catch2.git
+  GIT_REPOSITORY https://github.com/Teslos-Dev/Catch2.git
   GIT_TAG        v2.11.0
   )
 FetchContent_Declare(
   fmt
-  GIT_REPOSITORY https://github.com/fmtlib/fmt.git
+  GIT_REPOSITORY https://github.com/Teslos-Dev/fmtlib/fmt.git
   GIT_TAG        6.1.2
   )
 FetchContent_Declare(
   nlohmann_json
-  GIT_REPOSITORY https://github.com/nlohmann/json.git
+  GIT_REPOSITORY https://github.com/Teslos-Dev/json.git
   GIT_TAG        v3.7.3
   )
 FetchContent_Declare(
   absl
-  GIT_REPOSITORY https://github.com/abseil/abseil-cpp.git
+  GIT_REPOSITORY https://github.com/Teslos-Dev/abseil-cpp.git
   GIT_TAG        0033c9ea91a52ade7c6b725aa2ef3cbe15463421
 )
 

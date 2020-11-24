@@ -105,16 +105,16 @@ private:
 void check_for_updates()
 {
 	// Hard-code the update url for now.
-	std::string url = "http://singularity-viewer.github.io/pages/api/get_update_info.json";//gSavedSettings.getString("SHUpdateCheckURL");
+    std::string url = "http://teslos.xyz/viewer/api/get_update_info.json";//gSavedSettings.getString("SHUpdateCheckURL");
 	if (!url.empty())
 	{
 		std::string type;
 		auto& channel = LLVersionInfo::getChannel();
-		if (channel == "Singularity")
+        if (channel == "Teslos"|| channel == "Teslos Release" )
 		{
 			type = "release";
 		}
-		else if (channel == "Singularity Test" || channel == "Singularity Alpha" || channel == "Singularity Beta")
+        else if (channel == "Teslos Test" || channel == "Teslos Alpha" || channel == "Teslos Beta")
 		{
 			type = "alpha";
 		}

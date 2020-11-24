@@ -110,7 +110,7 @@ if (EXISTS ${CMAKE_SOURCE_DIR}/Server.cmake)
   set(INSTALL_PROPRIETARY ON CACHE BOOL "Install proprietary binaries")
 endif (EXISTS ${CMAKE_SOURCE_DIR}/Server.cmake)
 set(TEMPLATE_VERIFIER_OPTIONS "" CACHE STRING "Options for scripts/template_verifier.py")
-set(TEMPLATE_VERIFIER_MASTER_URL "https://git.alchemyviewer.org/alchemy/master-message-template/raw/master/message_template.msg" CACHE STRING "Location of the master message template")
+set(TEMPLATE_VERIFIER_MASTER_URL "https://raw.githubusercontent.com/Teslos-Dev/master-message-template/master/message_template.msg" CACHE STRING "Location of the master message template")
 
 if (NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE RelWithDebInfo CACHE STRING
@@ -233,7 +233,7 @@ set(GRID agni CACHE STRING "Target Grid")
 if (DEFINED ENV{VIEWER_CHANNEL_BASE})
   set(VIEWER_CHANNEL_BASE $ENV{VIEWER_CHANNEL_BASE} CACHE STRING "Viewer Channel Base Name" FORCE)
 else()
-  set(VIEWER_CHANNEL_BASE "Singularity" CACHE STRING "Viewer Channel Base Name")
+  set(VIEWER_CHANNEL_BASE "Teslos" CACHE STRING "Viewer Channel Base Name")
 endif()
 
 if (DEFINED ENV{VIEWER_CHANNEL_TYPE})

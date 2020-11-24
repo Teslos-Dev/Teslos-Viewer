@@ -804,7 +804,7 @@ const LLSD SHClientTagMgr::generateClientTag(const LLVOAvatar* pAvatar) const
 		static const LLCachedControl<bool>			ascent_use_custom_tag("AscentUseCustomTag", false);
 		static const LLCachedControl<LLColor4>		ascent_custom_tag_color("AscentCustomTagColor", LLColor4(.5f,1.f,.25f,1.f));
 		static const LLCachedControl<std::string>	ascent_custom_tag_label("AscentCustomTagLabel","custom");
-		static const LLCachedControl<std::string>	ascent_report_client_uuid("AscentReportClientUUID","f25263b7-6167-4f34-a4ef-af65213b2e39");
+        static const LLCachedControl<std::string>	ascent_report_client_uuid("AscentReportClientUUID","825171dd-f80e-4163-acc3-a371f1c44698");
 
 		if (ascent_use_custom_tag)
 		{
