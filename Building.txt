@@ -1,0 +1,9 @@
+sudo python2 `which pip` install "git+https://github.com/Teslos-Dev/autobuild.git"
+
+autobuild configure -cRelease -A64 -- -DPACKAGE=OFF -DCMAKE_C_COMPILER=gcc-4.9 -DCMAKE_CXX_COMPILER=g++-4.9 -DOpenGL_GL_PREFERENCE:STRING="LEGACY"
+
+cd build-linux-x86_64
+
+ninja -j8
+
+

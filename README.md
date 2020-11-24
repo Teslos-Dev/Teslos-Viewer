@@ -4,7 +4,7 @@ This viewer started life as a fork of Singularity 1.8.9 (8338).
 
 See <a href="https://github.com/singularity-viewer/SingularityViewer/releases/tag/sv-1.8.9.8338-release" target="_blank">Singularity</a> for the exact code this viewer is based on.
 
-Please see README-SINGU for the original Sinularity Viewer readme.
+Please see README-SINGU for the original Singularity Viewer readme.
 
 Teslos Viewer 1.0.0 is in fact just a renamed and slightly differently configured clone and all relevent urls were changed aswell as the icons.
 
